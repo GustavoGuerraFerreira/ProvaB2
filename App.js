@@ -10,9 +10,6 @@ const Stack = createNativeStackNavigator()
 export default function App() {
   return (
     <NavigationContainer>
-      {/* <Stack.Navigator>
-        <Stack.Screen name='Itens do usuário' component={ItensPage}/>
-      </Stack.Navigator> */}
       <PublicScreens/>
     </NavigationContainer>
   );
